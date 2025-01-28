@@ -1,0 +1,3 @@
+parm mon.mod-bla.parm7
+ensemble mon.md1.nc.000
+trajout remd.nc

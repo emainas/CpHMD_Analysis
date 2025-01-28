@@ -1,0 +1,6 @@
+parm tet.mod-bla.parm7 
+trajin remd.nc.2
+autoimage
+center :339 mass origin
+image origin center familiar
+trajout imaged.nc

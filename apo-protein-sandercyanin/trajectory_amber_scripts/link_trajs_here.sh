@@ -1,0 +1,14 @@
+#!/bin/bash
+
+pH_min=3.5 #The lowest pH
+pH_max=10.0 #The highest pH
+pH_step=0.5
+
+i=0
+m=$pH_min
+while (( $(bc <<< "$m <= $pH_max") )); do
+  ln ../${m}/apo.md1.nc apo.md1.nc.00${i}
+  ln ../${m}/apo.md1.cpout cpout.${i}
+  m=$(bc <<< "$m + $pH_step")
+  i=$((i + 1))
+done

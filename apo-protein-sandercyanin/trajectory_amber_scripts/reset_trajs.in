@@ -1,0 +1,3 @@
+parm apo.mod.parm7
+ensemble apo.md1.nc.000
+trajout remd.nc

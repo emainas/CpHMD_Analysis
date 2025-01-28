@@ -1,0 +1,12 @@
+parm mon.mod-bla.parm7
+trajin remd.nc.8 
+
+distance COM1 :89@CE1,NE2,CD2,CG,ND1 :170@NA,C1A,C2A,C3A,C4A
+vector HIS89  corrplane :89@CE1,NE2,CD2,CG,ND1
+vector BLA170 corrplane :170@NA,C1A,C2A,C3A,C4A
+
+vectormath name ANGLE1 vec1 HIS89 vec2 BLA170 dotangle
+
+run
+
+writedata com-angle1.dat COM1 ANGLE1

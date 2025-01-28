@@ -1,0 +1,15 @@
+#Acceptor                DonorH           Donor   Frames         Frac      AvgDist       AvgAng
+ALA_93@O             HIP_89@HD1      HIP_89@ND1     1258       0.1186       2.8431     158.6526
+ASN_58@OD1           HIP_89@HE2      HIP_89@NE2      742       0.0700       2.8246     159.8350
+GL4_90@O             HIP_89@HD1      HIP_89@ND1      590       0.0556       2.8584     150.3195
+ILE_71@O             HIP_89@HD1      HIP_89@ND1      322       0.0304       2.8371     154.4861
+PHE_87@O             HIP_89@HD1      HIP_89@ND1      165       0.0156       2.8306     147.2622
+BLA_339@O1A          HIP_89@HD1      HIP_89@ND1       22       0.0021       2.8633     146.5398
+BLA_339@O2A          HIP_89@HD1      HIP_89@ND1       17       0.0016       2.8398     145.1586
+ASN_58@ND2           HIP_89@HE2      HIP_89@NE2       14       0.0013       2.9074     152.0884
+BLA_339@OC           HIP_89@HE2      HIP_89@NE2       11       0.0010       2.8492     153.6649
+ALA_93@O             HIP_89@HE2      HIP_89@NE2        7       0.0007       2.8717     146.3093
+PHE_88@O             HIP_89@HD1      HIP_89@ND1        3       0.0003       2.7796     151.6307
+BLA_339@ND           HIP_89@HE2      HIP_89@NE2        3       0.0003       2.9197     145.3312
+GL4_90@OE2           HIP_89@HE2      HIP_89@NE2        2       0.0002       2.9143     140.1097
+ILE_71@O             HIP_89@HE2      HIP_89@NE2        1       0.0001       2.8862     148.9563

@@ -1,0 +1,4 @@
+parm tet.mod-bla.parm7
+trajin imaged_pH7.5.nc
+hbond :1-640 out all.out  avgout all.avg.dat
+run                                                                                

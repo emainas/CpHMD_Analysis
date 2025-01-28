@@ -1,0 +1,13 @@
+parm tet.mod-bla.parm7
+trajin imaged_pH7.5.nc
+nativecontacts name bili :339 (:339@CHA<:15.0&!:339) \
+        writecontacts native-contacts.dat \
+        resout resout.dat \  
+        byresidue out bv339.all.res.dat mindist maxdist \
+        distance 7.0 map mapout resmap.gnu \
+        contactpdb BV339.pdb \
+        series seriesout series.dat\
+go
+run
+lifetime bili[NC] out lifetime.dat
+go

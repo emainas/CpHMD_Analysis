@@ -1,0 +1,7 @@
+parm tet.mod-bla.parm7 
+trajin imaged_8.nc
+distance :339@CGA :339@CGD out 1-intra-BV.out
+distance :340@CGA :340@CGD out 2-intra-BV.out
+distance :679@CGA :679@CGD out 3-intra-BV.out
+distance :680@CGA :680@CGD out 4-intra-BV.out
+go 

@@ -1,0 +1,4 @@
+parm mon.mod-bla.parm7 
+trajin imaged_8.nc
+distance :170@CGD :170@CGA out monomer_prn_distance.out
+go 

@@ -1,0 +1,11 @@
+parm tet.mod-bla.parm7
+trajin imaged_pH7.5.nc
+hbond bv1_acc out bv339_acc.out acceptormask :339 avgout bv339_acc.avg.dat series uuseries bv339_acc_bbhbond.gnu bridgeout bv339_acc.bridge.avg.dat
+hbond bv1_don out bv339_don.out donormask :339 avgout bv339_don.avg.dat series uuseries bv339_don_bbhbond.gnu bridgeout bv339_don.bridge.avg.dat
+hbond bv2_acc out bv340_acc.out acceptormask :340 avgout bv340_acc.avg.dat series uuseries bv340_acc_bbhbond.gnu bridgeout bv340_acc.bridge.avg.dat
+hbond bv2_don out bv340_don.out donormask :340 avgout bv340_don.avg.dat series uuseries bv340_don_bbhbond.gnu bridgeout bv340_don.bridge.avg.dat
+hbond bv3_acc out bv679_acc.out acceptormask :679 avgout bv679_acc.avg.dat series uuseries bv679_acc_bbhbond.gnu bridgeout bv679_acc.bridge.avg.dat
+hbond bv3_don out bv679_don.out donormask :679 avgout bv679_don.avg.dat series uuseries bv679_don_bbhbond.gnu bridgeout bv679_don.bridge.avg.dat
+hbond bv4_acc out bv680_acc.out acceptormask :680 avgout bv680_acc.avg.dat series uuseries bv680_acc_bbhbond.gnu bridgeout bv680_acc.bridge.avg.dat
+hbond bv4_don out bv680_don.out donormask :680 avgout bv680_don.avg.dat series uuseries bv680_don_bbhbond.gnu bridgeout bv680_don.bridge.avg.dat
+run                                                                                

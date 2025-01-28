@@ -1,0 +1,4 @@
+parm mon.mod-bla.parm7
+trajin imaged_8.nc
+hbond :1-170 out all.out  avgout all.avg.dat
+run                                                                                

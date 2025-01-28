@@ -1,0 +1,31 @@
+parm tet.mod-bla.parm7
+trajin imaged_pH7.5.nc 
+
+distance COM1 :89@CE1,NE2,CD2,CG,ND1 :339@NA,C1A,C2A,C3A,C4A
+vector HIS89  corrplane :89@CE1,NE2,CD2,CG,ND1
+vector BLA339 corrplane :339@NA,C1A,C2A,C3A,C4A
+
+distance COM2 :258@CE1,NE2,CD2,CG,ND1 :340@NA,C1A,C2A,C3A,C4A
+vector HIS258 corrplane :258@CE1,NE2,CD2,CG,ND1
+vector BLA340 corrplane :340@NA,C1A,C2A,C3A,C4A
+
+distance COM3 :429@CE1,NE2,CD2,CG,ND1 :679@NA,C1A,C2A,C3A,C4A
+vector HIS429 corrplane :429@CE1,NE2,CD2,CG,ND1
+vector BLA679 corrplane :679@NA,C1A,C2A,C3A,C4A
+
+distance COM4 :598@CE1,NE2,CD2,CG,ND1 :680@NA,C1A,C2A,C3A,C4A
+vector HIS598 corrplane :598@CE1,NE2,CD2,CG,ND1
+vector BLA680 corrplane :680@NA,C1A,C2A,C3A,C4A
+
+
+vectormath name ANGLE1 vec1 HIS89  vec2 BLA339 dotangle 
+vectormath name ANGLE2 vec1 HIS258 vec2 BLA340 dotangle
+vectormath name ANGLE3 vec1 HIS429 vec2 BLA679 dotangle
+vectormath name ANGLE4 vec1 HIS598 vec2 BLA680 dotangle
+
+run
+
+writedata com-angle1.dat COM1 ANGLE1
+writedata com-angle2.dat COM2 ANGLE2
+writedata com-angle3.dat COM3 ANGLE3
+writedata com-angle4.dat COM4 ANGLE4

@@ -1,0 +1,15 @@
+parm tet.mod-bla.parm7
+trajin imaged_pH7.5.nc
+hbond lys35_acc out lys35_acc.out acceptormask :35 avgout lys35_acc.avg.dat series uuseries lys35_acc_bbhbond.gnu bridgeout lys35_acc.bridge.avg.dat
+hbond lys35_don out lys35_don.out donormask :35 avgout lys35_don.avg.dat series uuseries lys35_don_bbhbond.gnu bridgeout lys35_don.bridge.avg.dat
+hbond lys38_acc out lys38_acc.out acceptormask :38 avgout lys38_acc.avg.dat series uuseries lys38_acc_bbhbond.gnu bridgeout lys38_acc.bridge.avg.dat
+hbond lys38_don out lys38_don.out donormask :38 avgout lys38_don.avg.dat series uuseries lys38_don_bbhbond.gnu bridgeout lys38_don.bridge.avg.dat
+hbond lys68_acc out lys68_acc.out acceptormask :68 avgout lys68_acc.avg.dat series uuseries lys68_acc_bbhbond.gnu bridgeout lys68_acc.bridge.avg.dat
+hbond lys68_don out lys68_don.out donormask :68 avgout lys68_don.avg.dat series uuseries lys68_don_bbhbond.gnu bridgeout lys68_don.bridge.avg.dat
+hbond bv_acc out bv339_acc.out acceptormask :339 avgout bv339_acc.avg.dat series uuseries bv339_acc_bbhbond.gnu bridgeout bv339_acc.bridge.avg.dat
+hbond bv_don out bv339_don.out donormask :339 avgout bv339_don.avg.dat series uuseries bv339_don_bbhbond.gnu bridgeout bv339_don.bridge.avg.dat
+hbond his89_acc out his89_acc.out acceptormask :89 avgout his89_acc.avg.dat series uuseries his89_acc_bbhbond.gnu bridgeout his89_acc.bridge.avg.dat
+hbond his89_don out his89_don.out donormask :89 avgout his89_don.avg.dat series uuseries his89_don_bbhbond.gnu bridgeout his89_don.bridge.avg.dat
+hbond arg347_acc out arg347_acc.out acceptormask :347 avgout arg347_acc.avg.dat series uuseries arg347_acc_bbhbond.gnu bridgeout arg347_acc.bridge.avg.dat
+hbond arg347_don out arg347_don.out donormask :347 avgout arg347_don.avg.dat series uuseries arg347_don_bbhbond.gnu bridgeout arg347_don.bridge.avg.dat
+run                                                                                
